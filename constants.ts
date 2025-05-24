@@ -1,7 +1,7 @@
 import { ModelConfig, ModelType } from './types';
 
 export const GEMINI_MODEL_TEXT = 'gemini-2.5-flash-preview-05-20';
-export const DEFAULT_OPENAI_COMPATIBLE_MODEL_TEXT = 'tngtech/deepseek-r1t-chimera:freegpt-3.5-turbo'; // Example, user might use a different one
+export const DEFAULT_OPENAI_COMPATIBLE_MODEL_TEXT = 'tngtech/deepseek-r1t-chimera:free'; // Example, user might use a different one
 export const DEFAULT_OPENAI_API_BASE_URL = 'https://openrouter.ai/api/v1';
 
 
