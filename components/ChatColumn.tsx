@@ -67,7 +67,7 @@ const ChatColumn = forwardRef<ChatColumnHandle, ChatColumnProps>(({ config, apiK
   return (
     <div className="flex flex-col h-full bg-gray-800 border border-gray-700 rounded-lg overflow-hidden">
       <div className="p-3 bg-gray-750 border-b border-gray-700">
-        <h2 className="text-lg font-semibold text-center text-teal-400">{config.name}</h2>
+        <h2 className="text-lg font-semibold text-center text-teal-400">{config.name} {config.modelNameApi}</h2>
         {systemNote && (
           <p className="text-xs text-gray-400 text-center italic mt-1" title={
             (config.modelType === ModelType.GEMINI && config.geminiSystemInstruction) || 

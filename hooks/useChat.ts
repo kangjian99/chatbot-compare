@@ -152,7 +152,7 @@ export function useChat(config: ModelConfig, apiKey: string | undefined) {
         // Add the current user message that triggered this call
         historyForOpenAI.push({role: 'user', content: userInput});
 
-        console.log("OpenAIConfig", config);
+        //console.log("OpenAIConfig", config);
         const response = await fetch(`${config.openaiBaseUrl}/chat/completions`, {
           method: 'POST',
           headers: {
