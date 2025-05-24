@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Chat Compare",
+  "description": "A full-featured chatbot application that allows users to interact with and compare responses from two configurations of Google's Gemini models side-by-side. One chat instance uses a standard configuration, while the other leverages Google Search grounding for more current or web-informed answers.",
+  "requestFramePermissions": []
+}
