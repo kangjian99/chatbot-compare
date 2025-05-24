@@ -1,8 +1,8 @@
 import { ModelConfig, ModelType } from './types';
 
 export const GEMINI_MODEL_TEXT = 'gemini-2.5-flash-preview-05-20';
-export const DEFAULT_OPENAI_COMPATIBLE_MODEL_TEXT = 'gpt-3.5-turbo'; // Example, user might use a different one
-export const DEFAULT_OPENAI_API_BASE_URL = 'https://api.openai.com/v1';
+export const DEFAULT_OPENAI_COMPATIBLE_MODEL_TEXT = 'tngtech/deepseek-r1t-chimera:freegpt-3.5-turbo'; // Example, user might use a different one
+export const DEFAULT_OPENAI_API_BASE_URL = 'https://openrouter.ai/api/v1';
 
 
 // Attempt to access API_KEY from process.env for Gemini
